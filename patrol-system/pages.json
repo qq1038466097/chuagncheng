@@ -1,0 +1,188 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智慧创城巡访",
+				"navigationStyle":"default"
+			}
+		},
+        {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "智慧创城巡访",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "地图",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/map/mapSearch",
+			"style": {
+				"navigationBarTitleText": "点位搜索",
+				"navigationStyle":"default",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+        {
+        	"path": "pages/task/dot",
+        	"style": {
+        		"navigationBarTitleText": "我的点位数据",
+        		"navigationStyle":"default",
+                "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor":"#fff"
+        	}
+        },
+		{
+			"path": "pages/task/dotRandom",
+			"style": {
+				"navigationBarTitleText": "我的随机点位数据",
+				"navigationStyle":"default",
+		        "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+        {
+        	"path": "pages/task/report",
+        	"style": {
+        		"navigationBarTitleText": "问题上报",
+        		"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#fff"
+        	}
+        },
+		{
+			"path": "pages/task/reportProblem",
+			"style": {
+				"navigationBarTitleText": "问题上报",
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path": "pages/task/reportDetail",
+			"style": {
+				"navigationBarTitleText": "点位详情",
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+        {
+        	"path": "pages/task/user",
+        	"style": {
+        		"navigationBarTitleText": "个人中心",
+        		"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#0091FF",
+				"navigationBarTextStyle": "#fff"
+        	}
+        },
+        {
+        	"path": "pages/task/userMessage",
+        	"style": {
+        		"navigationBarTitleText": "通知消息",
+        		"navigationStyle":"default"
+        	}
+        },
+		{
+			"path": "pages/task/chat-signal",
+			"style": {
+				"navigationBarTitleText": "信号管理",
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+        {
+        	"path": "pages/task/chat",
+        	"style": {
+        		"navigationBarTitleText": "通知群",
+        		"navigationStyle":"default",
+				"navigationBarBackgroundColor": "#fff"
+        	}
+        },
+		{
+			"path": "pages/task/chat-one",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+        {
+        	"path": "pages/task/mapshow",
+        	"style": {
+        		"navigationBarTitleText": "地图",
+        		"navigationStyle":"default"
+        	}
+        },
+        {
+        	"path": "pages/task/history",
+        	"style": {
+        		"navigationBarTitleText": "巡查详情",
+        		"navigationStyle":"default"
+        	}
+        },
+		{
+			"path": "pages/task/dotReport",
+			"style": {
+				"navigationBarTitleText": "点位处理",
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/task/messageList",
+			"style": {
+				"navigationBarTitleText": "消息管理",
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path": "pages/task/telbook",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path": "pages/task/addDot",
+			"style": {
+				"navigationBarTitleText": "新增随机点位",
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/task/dotEdit",
+			"style": {
+				"navigationBarTitleText": "修改随机点位",
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/task/group-man",
+			"style": {
+				"navigationBarTitleText": "全部群成员",
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		}
+	    ,{
+            "path" : "components/uni-noData/noData/noData",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

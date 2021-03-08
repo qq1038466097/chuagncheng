@@ -1,0 +1,1 @@
+webpackJsonp([42],{808:function(e,t,s){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default={namespace:"screen",state:{},subscriptions:{setup:function(e){e.dispatch;e.history.listen(function(e){e.pathname})}},effects:{},reducers:{}},e.exports=t.default}});
